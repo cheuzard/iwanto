@@ -47,7 +47,7 @@ func main() {
 	}
 
 	switch args[1] {
-	case "h", "help":
+	case "h", "help", "-h", "--help":
 		fmt.Println("Usage: iwantto [l/ist|a/add|r/remove] [String|removal number]")
 		return
 	case "l", "list":
